@@ -1,0 +1,327 @@
+@media (min-width: 576px) {
+  .broadcast__archive::before {
+    width: calc(100% + 80px);
+  }
+}
+
+@media (min-width: 768px) {
+  .container {
+    padding-left: 90px;
+    padding-right: 90px;
+  }
+
+  .header {
+    padding: 0 114px;
+  }
+
+  .header__top {
+    padding-top: 29px;
+    padding-bottom: 26px;
+  }
+
+  .header__logo {
+    width: 113px;
+  }
+
+  .header__bottom {
+    padding-top: 21px;
+    padding-bottom: 21px;
+  }
+
+  .header__search {
+    top: 29px;
+    right: 109px;
+  }
+
+  .header__nav {
+    margin-left: -114px;
+    margin-right: -114px;
+    padding-right: 114px;
+    padding-left: 114px;
+  }
+
+  .nav__list {
+    gap: 53px;
+  }
+
+  .hero__h1 {
+    padding-top: 90px;
+    font-size: 60px;
+  }
+
+  .hero__description {
+    margin-top: 17px;
+    margin-bottom: 18px;
+    font-size: 16px;
+  }
+
+  .hero__btn {
+    padding: 25px 54px;
+    font-size: 20px;
+  }
+
+  .hero__content {
+    margin-bottom: 90px;
+  }
+
+  .podcasts__content {
+    padding-bottom: 64px;
+  }
+
+  .podcasts__h2 {
+    margin-bottom: 30px;
+    padding-top: 40px;
+    font-size: 48px;
+  }
+
+  .card-time {
+    padding-top: 24px;
+    padding-left: 14px;
+  }
+
+  .card-title {
+    margin-bottom: 4px;
+    padding-left: 14px;
+    font-size: 20px;
+  }
+
+  .card-text {
+    padding-bottom: 24px;
+    padding-left: 14px;
+    font-size: 16px;
+  }
+
+  .card-data-ivent {
+    top: 124px;
+  }
+
+  .broadcast__h2 {
+    margin-bottom: 119px;
+    padding-top: 37px;
+    font-size: 48px;
+  }
+
+  .broadcast__archive-content {
+    display: flex;
+  }
+
+  .broadcast__archive-btn {
+    max-width: 160px;
+  }
+
+  .broadcast__archive-text {
+    max-width: 255px;
+  }
+
+  .broadcast__card-body {
+    padding-bottom: 20px;
+  }
+
+  .broadcast__card-title {
+    margin-top: 11px;
+    margin-bottom: 2px;
+    padding-left: 6px;
+  }
+
+  .broadcast__card-text {
+    margin-bottom: 12px;
+    padding-left: 6px;
+    font-size: 12px;
+  }
+
+  .broadcast__card-link {
+    padding-left: 5px;
+    font-size: 16px;
+    bottom: 20px;
+  }
+
+  .broadcast__bottom-offset {
+    margin-bottom: 31px;
+  }
+
+  .broadcast__archive::before {
+    width: calc(100% + 204px);
+  }
+
+  .broadcast__archive-img {
+    margin-left: 0;
+    margin-right: 0;
+    padding-right: 20px;
+  }
+
+  .broadcast__archive-btn {
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+
+  .broadcast__archive-text {
+    margin-bottom: -2px;
+  }
+
+  .broadcast__archive-text {
+    font-size: 16px;
+  }
+
+}
+
+@media (min-width: 992px) {
+  .broadcast__row {
+    position: relative;
+  }
+
+  .broadcast__up-offset {
+    margin-top: 56px;
+  }
+
+  .broadcast__bottom-offset {
+    margin-bottom: 0;
+  }
+
+  .broadcast__archive {
+    position: absolute;
+    left: 12px;
+    bottom: 32px;
+  }
+
+  .broadcast__archive::before {
+    border: none;
+  }
+
+  .broadcast__archive-img {
+    margin-bottom: 24px;
+  }
+
+  .broadcast__archive-btn {
+    margin-bottom: 12px;
+  }
+}
+
+@media (min-width: 1024px) {
+
+  .container {
+    padding-left: 68px;
+    padding-right: 68px;
+  }
+
+  .header {
+    padding: 0 100px;
+  }
+
+  .nav__list {
+    font-size: 20px;
+  }
+
+  .header__search {
+    right: 94px;
+  }
+
+  .nav__list {
+    gap: 105px;
+  }
+
+  .hero__background {
+    width: 260px;
+    height: 272px;
+    background: url("../img/microphone.png");
+    background-repeat: no-repeat;
+  }
+
+  /* .broadcast__row {
+    position: relative;
+  } */
+
+  /* .broadcast__archive {
+    position: absolute;
+    bottom: 0;
+  } */
+
+  /* .broacast__up-offset {
+    margin-top: 56px;
+  }
+
+  .broacast__bottom-offset {
+    margin-bottom: 0;
+  }
+
+  .broadcast__archive {
+    left: 12px;
+    bottom: 32px;
+  }
+
+  .broadcast__archive::before {
+    border: none;
+  }
+
+  .broadcast__archive-img {
+    margin-bottom: 24px;
+  }
+
+  .broadcast__archive-btn {
+    margin-bottom: 12px;
+  } */
+}
+
+@media (min-width: 1920px) {
+
+  .container {
+    padding-left: 104px;
+    padding-right: 104px;
+  }
+
+  .header {
+    display: flex;
+    padding: 0 405px;
+  }
+
+  .header__main {
+    display: flex;
+  }
+
+  .header__logo {
+    width: 160px;
+    padding-top: 6px;
+  }
+
+  .header__search {
+    right: 400px;
+  }
+
+  .header__nav {
+    border: none;
+  }
+
+  .header__bottom {
+    margin-left: -35px;
+    padding-top: 34px;
+  }
+
+  .nav__list {
+    gap: 59px;
+  }
+
+  .hero__content {
+    margin-bottom: 40px;
+  }
+
+  .hero__h1 {
+    padding-top: 102px;
+  }
+
+  .hero__description {
+    margin-bottom: 42px;
+    padding-right: 5px;
+  }
+
+  .hero__btn {
+    margin-bottom: 54px;
+  }
+
+  .hero__background {
+    width: 360px;
+    height: 382px;
+    background: url("../img/microphone_xl.png");
+    background-repeat: no-repeat;
+  }
+}
+
+

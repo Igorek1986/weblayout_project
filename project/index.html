@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./css/normalize.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+  <link rel="stylesheet" href="./css/style.css">
+  <link rel="stylesheet" href="./css/media.css">
+  <link rel="apple-touch-icon" sizes="180x180" href="./favicon/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="./favicon/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="./favicon/favicon-16x16.png">
+  <link rel="manifest" href="./favicon/site.webmanifest">
+  <link rel="mask-icon" href="./favicon/safari-pinned-tab.svg" color="#5bbad5">
+  <meta name="msapplication-TileColor" content="#da532c">
+  <meta name="theme-color" content="#ffffff">
+  <title>W-Wawe Radio</title>
+</head>
+<body>
+  <header class="header">
+    <div class="header__main">
+      <div class="header__top">
+        <a href="#">
+          <img class="header__logo" src="./img/logo.svg" alt="W-Wawe Radio" aria-label="W-Wawe Radio">
+        </a>
+      </div>
+      <div class="header__bottom header__nav">
+        <nav class="nav" aria-label="Главная">
+          <ul class="list-reset flex nav__list">
+            <li>
+              <a href="#podcasts" class="nav__link">Подкасты</a>
+            </li>
+            <li>
+              <a href="#broadcast" class="nav__link">Передачи</a>
+            </li>
+            <li>
+              <a href="#guests" class="nav__link">Гости</a>
+            </li>
+            <li>
+              <a href="#playlist" class="nav__link">Плейлисты</a>
+            </li>
+            <li>
+              <a href="#about" class="nav__link">О&nbsp;нас</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+      <button class="header__search">
+        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path d="M11 19C15.4183 19 19 15.4183 19 11C19 6.58172 15.4183 3 11 3C6.58172 3 3 6.58172 3 11C3 15.4183 6.58172 19 11 19Z" stroke="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+          <path d="M20.9999 21L16.6499 16.65" stroke="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+        </svg>
+      </button>
+    </div>
+  </header>
+  <main class="main">
+    <section class="hero">
+      <div class="container hero__content">
+        <div class="row gx-1 justify-content-between">
+          <div class="col-lg-8 col-xl-7">
+            <h1 class="hero__h1">Радио W-Wave</h1>
+            <p class="hero__description">Привет, на&nbsp;связи W-Wave! Раньше мы&nbsp;были изданием, а&nbsp;теперь пробуем себя в&nbsp;разоворном жанре. Говорим о&nbsp;музыке, политике, истории, науке и&nbsp;культуре. Здесь, помимо прямого эфира&nbsp;&mdash; архив передач и&nbsp;многое другое:)</p>
+            <button class="hero__btn">Слушать эфир</button>
+          </div>
+          <div class="col-xl-5 align-self-end hero__background"></div>
+        </div>
+      </div>
+    </section>
+    <section class="podcasts">
+      <div class="container podcasts__content">
+        <h2 class="podcasts__h2">
+          Подкасты
+        </h2>
+        <div class="row row-cols-1 row-cols-lg-2">
+          <div class="col">
+            <div class="card flex-md-row">
+              <picture>
+                <source srcset="./img/podcasts_1_md.png" media="(min-width: 768px)">
+                <img class="card-img-top" src="./img/podcasts_1.png" alt="Европа. XIX век">
+              </picture>
+              <p class="card-data-ivent">14&nbsp;июня</p>
+              <div class="card-body">
+                <p class="card-time">15:43</p>
+                <h3 class="card-title">Европа. XIX век</h3>
+                <p class="card-text">Дмитрий Гутенберг</p>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card flex-md-row">
+              <picture>
+                <source srcset="./img/podcasts_2_md.png" media="(min-width: 768px)">
+                <img class="card-img-top" src="./img/podcasts_2.png" alt="Музыка">
+              </picture>
+              <p class="card-data-ivent">11&nbsp;июня</p>
+              <div class="card-body">
+                <p class="card-time">5:32</p>
+                <h3 class="card-title">О&nbsp;музыке</h3>
+                <p class="card-text">Дмитрий Гутенберг</p>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card flex-md-row">
+              <picture>
+                <source srcset="./img/podcasts_3_md.png" media="(min-width: 768px)">
+                <img class="card-img-top" src="./img/podcasts_3.png" alt="Люди">
+              </picture>
+              <p class="card-data-ivent">8&nbsp;июня</p>
+              <div class="card-body">
+                <p class="card-time">8:54</p>
+                <h3 class="card-title">Люди сегодня</h3>
+                <p class="card-text">Анна Васильева</p>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card flex-md-row">
+              <picture>
+                <source srcset="./img/podcasts_4_md.png" media="(min-width: 768px)">
+                <img class="card-img-top" src="./img/podcasts_4.png" alt="Африка">
+              </picture>
+              <p class="card-data-ivent">5&nbsp;июня</p>
+              <div class="card-body">
+                <p class="card-time">9:04</p>
+                <h3 class="card-title">Хэллоу, Африка!</h3>
+                <p class="card-text">Пётр Дмитриевский</p>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card flex-md-row">
+              <picture>
+                <source srcset="./img/podcasts_5_md.png" media="(min-width: 768px)">
+                <img class="card-img-top" src="./img/podcasts_5.png" alt="Аристотель">
+              </picture>
+              <p class="card-data-ivent">2&nbsp;июня</p>
+              <div class="card-body">
+                <p class="card-time">7:03</p>
+                <h3 class="card-title">Обо всём</h3>
+                <p class="card-text">Пётр Дмитриевский</p>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card flex-md-row">
+              <picture>
+                <source srcset="./img/podcasts_6_md.png" media="(min-width: 768px)">
+                <img class="card-img-top" src="./img/podcasts_6.png" alt="">
+              </picture>
+              <p class="card-data-ivent">28&nbsp;мая</p>
+              <div class="card-body">
+                <p class="card-time">9:15</p>
+                <h3 class="card-title">Физика цвета</h3>
+                <p class="card-text">Татьяна Флеганова</p>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card flex-md-row">
+              <picture>
+                <source srcset="./img/podcasts_7_md.png" media="(min-width: 768px)">
+                <img class="card-img-top" src="./img/podcasts_7.png" alt="Звук">
+              </picture>
+              <p class="card-data-ivent">22&nbsp;мая</p>
+              <div class="card-body">
+                <p class="card-time">16:04</p>
+                <h3 class="card-title">Источник звука</h3>
+                <p class="card-text">Пётр Дмитриевский</p>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card flex-md-row">
+              <picture>
+                <source srcset="./img/podcasts_8_md.png" media="(min-width: 768px)">
+                <img class="card-img-top" src="./img/podcasts_8.png" alt="Правила этикета">
+              </picture>
+              <p class="card-data-ivent">18&nbsp;мая</p>
+              <div class="card-body">
+                <p class="card-time">6:55</p>
+                <h3 class="card-title">Правила этикета</h3>
+                <p class="card-text">Татьяна Флеганова</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="broadcast">
+      <div class="container broadcast__content">
+        <div class="row row-cols-lg-6 broadcast__row">
+          <div class="col-lg-4 col-xl-3">
+            <h2 class="broadcast__h2">
+              Передачи
+            </h2>
+          </div>
+          <div class="col-lg-8 col-xl-9 broadcast__up-offset broadcast__bottom-offset">
+            <div class="row row-cols-2 row-cols-xl-3">
+              <div class="pe-3">
+                <div class="card broadcast__card">
+                  <picture>
+                    <source srcset="./img/broadcast_1_md.png" media="(min-width: 768px)">
+                    <img class="card-img-top" src="./img/broadcast_1.png" alt="Люди, книги">
+                  </picture>
+                  <div class="card-body broadcast__card-body">
+                    <h3 class="card-title broadcast__card-title">О&nbsp;людях и&nbsp;книгах</h3>
+                    <p class="card-text broadcast__card-text">Анонсируется отдельно</p>
+                    <a href="#" class="flex broadcast__card-link">Подробнее
+                      <img src="./img/arrow.svg" alt="arrow">
+                    </a>
+                  </div>
+                </div>
+              </div>
+              <div class="ps-3">
+                <div class="card broadcast__card">
+                  <picture>
+                    <source srcset="./img/broadcast_2_md.png" media="(min-width: 768px)">
+                    <img class="card-img-top" src="./img/broadcast_2.png" alt="Графомания">
+                  </picture>
+                  <div class="card-body broadcast__card-body">
+                    <h3 class="card-title broadcast__card-title">Графомания&nbsp;td</h3>
+                    <p class="card-text broadcast__card-text">По&nbsp;понедельникам в&nbsp;10:00</p>
+                    <a href="#" class="flex broadcast__card-link">Подробнее
+                      <img src="./img/arrow.svg" alt="arrow">
+                    </a>
+                  </div>
+                </div>
+              </div>
+              <div class="pe-3">
+                <div class="card broadcast__card">
+                  <picture>
+                    <source srcset="./img/broadcast_3_md.png" media="(min-width: 768px)">
+                    <img class="card-img-top" src="./img/broadcast_3.png" alt="Колизей">
+                  </picture>
+                  <div class="card-body broadcast__card-body">
+                    <h3 class="card-title broadcast__card-title">Не&nbsp;Рим, не&nbsp;Троя</h3>
+                    <p class="card-text broadcast__card-text">По&nbsp;вторникам в&nbsp;12:00</p>
+                    <a href="#" class="flex broadcast__card-link">Подробнее
+                      <img src="./img/arrow.svg" alt="arrow">
+                    </a>
+                  </div>
+                </div>
+              </div>
+              <div class="ps-3">
+                <div class="card broadcast__card">
+                  <picture>
+                    <source srcset="./img/broadcast_4_md.png" media="(min-width: 768px)">
+                    <img class="card-img-top" src="./img/broadcast_4.png" alt="Эрудит">
+                  </picture>
+                  <div class="card-body broadcast__card-body">
+                    <h3 class="card-title broadcast__card-title">Эрудит</h3>
+                    <p class="card-text broadcast__card-text">По&nbsp;пятницам в&nbsp;17:00</p>
+                    <a href="#" class="flex broadcast__card-link">Подробнее
+                      <img src="./img/arrow.svg" alt="arrow">
+                    </a>
+                  </div>
+                </div>
+              </div>
+              <div class="pe-3">
+                <div class="card broadcast__card">
+                  <picture>
+                    <source srcset="./img/broadcast_5_md.png" media="(min-width: 768px)">
+                    <img class="card-img-top" src="./img/broadcast_5.png" alt="Тонкости эпох">
+                  </picture>
+                  <div class="card-body broadcast__card-body">
+                    <h3 class="card-title broadcast__card-title">Тонкости эпох</h3>
+                    <p class="card-text broadcast__card-text">По&nbsp;субботам в&nbsp;10:00</p>
+                    <a href="#" class="flex broadcast__card-link">Подробнее
+                      <img src="./img/arrow.svg" alt="arrow">
+                    </a>
+                  </div>
+                </div>
+              </div>
+              <div class="ps-3">
+                <div class="card broadcast__card">
+                  <picture>
+                    <source srcset="./img/broadcast_6_md.png" media="(min-width: 768px)">
+                    <img class="card-img-top" src="./img/broadcast_6.png" alt="Живые мысли">
+                  </picture>
+                  <div class="card-body broadcast__card-body">
+                    <h3 class="card-title broadcast__card-title">Живые мысли</h3>
+                    <p class="card-text broadcast__card-text">По&nbsp;воскресеньям в&nbsp;15:30</p>
+                    <a href="#" class="flex broadcast__card-link">Подробнее
+                      <img src="./img/arrow.svg" alt="arrow">
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 broadcast__archive flex px-0 justify-content-center flex-lg-column">
+            <picture>
+              <source srcset="./img/mic_lg.png" media="(min-width: 992px)">
+              <source srcset="./img/mic_md.png" media="(min-width: 768px)">
+              <img class="broadcast__archive-img" src="./img/mic.png" alt="microphone">
+            </picture>
+            <div class="flex-md-column-reverse broadcast__archive-content justify-content-md-around">
+              <p class="broadcast__archive-text">В&nbsp;архив попадают все передачи, которые вы&nbsp;пропустили! Enjoy:)</p>
+              <button class="broadcast__archive-btn">Архив</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+</body>
+</html>
+

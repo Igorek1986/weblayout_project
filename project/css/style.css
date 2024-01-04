@@ -1,0 +1,382 @@
+html {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  -webkit-box-sizing: inherit;
+  box-sizing: inherit;
+  /* border: 1px solid red; */
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+img {
+  max-width: 100%;
+}
+
+body {
+  font-family: "Muller", sans-serif;
+  margin: 0;
+}
+
+@font-face {
+  font-family: "Muller";
+  src: local("Muller-Regular"),
+    url("../font/MullerRegular.woff2") format("woff2"),
+    url("../font/MullerRegular.woff") format("woff");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Muller";
+  src: local("Muller-Light"),
+    url("../font/MullerLight.woff2") format("woff2"),
+    url("../font/MullerLight.woff") format("woff");
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Muller";
+  src: local("Muller-Bold"),
+    url("../font/MullerBold.woff2") format("woff2"),
+    url("../font/MullerBold.woff") format("woff");
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+
+.flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.container {
+  padding-left: 32px;
+  padding-right: 32px;
+}
+
+.list-reset {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.gap {
+  gap: 30px;
+}
+
+.full-height{
+  background:#ccc;
+}
+.col-sm-10{
+  background:#f0f;
+}
+
+/* header */
+
+.header {
+  padding: 0 32px;
+}
+
+.header__top {
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+.header__bottom {
+  padding-top: 17px;
+  padding-bottom: 17px;
+}
+
+.header__search {
+  position: absolute;
+  top: 15px;
+  right: 26px;
+  border: none;
+  outline: 2px solid transparent;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+.header__nav {
+  margin-left: -32px;
+  margin-right: -32px;
+  padding-right: 32px;
+  padding-left: 32px;
+  overflow-y: hidden;
+  border: 1px solid #E6E8EC;
+}
+
+.nav__list {
+  gap: 26px;
+  color: #121723;
+  font-family: Muller;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.header__search svg path {
+  stroke: #6D31EE;
+}
+
+/* Hero */
+
+.hero__content {
+  margin-bottom: 40px;
+}
+
+.hero__h1 {
+  padding-top: 40px;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 100%;
+}
+
+.hero__description {
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%;
+}
+
+.hero__btn {
+  padding: 17px 45px;
+  border-radius: 40px;
+  background: #6D31EE;
+  color: #FFF;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+/* Podcasts */
+
+.podcasts {
+  background-color: #E6E8EC;
+}
+
+.card {
+  margin-bottom: 30px;
+  border: none;
+  border-radius: 0;
+}
+
+.card-img-top {
+  border-radius: 0;
+}
+
+.podcasts__content {
+  padding-top: 52px;
+  padding-bottom: 24px;
+  /* background-color: #E6E8EC; */
+}
+
+.podcasts__h2 {
+  margin-bottom: 21px;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 100%;
+}
+
+.card-data-ivent {
+  min-width: 51px;
+  min-height: 16px;
+  position: absolute;
+  padding: 3px 6px;
+  margin-bottom: 0;
+  text-align: center;
+  font-size: 10px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  background-color: #E6E8EC;
+  top: 0;
+}
+
+.card-time {
+  margin-bottom: 8px;
+  padding-top: 14px;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.card-title {
+  margin-bottom: 5px;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.card-text {
+  padding-bottom: 14px;
+  color: #A1A6B4;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+/* Broadcast */
+
+.broadcast__content {
+  padding-top: 52px;
+}
+
+.broadcast__h2 {
+  margin-bottom: 27px;
+}
+
+.broadcast__card {
+  min-width: 113px;
+  /* border: 1px solid #E6E8EC; */
+}
+
+.broadcast__card-body {
+  min-height: 99px;
+  padding: 9px 11px 11px 9px;
+  border: 1px solid #E6E8EC;
+}
+
+.broadcast__card-title {
+  font-size: 12px;
+  font-weight: 500;
+}
+
+.broadcast__card-text {
+  margin-bottom: 18px;
+  padding-bottom: 0;
+  font-size: 9px;
+}
+
+.broadcast__card-link {
+  position: absolute;
+  bottom: 11px;
+  color: #6D31EE;
+  font-size: 12px;
+  font-style: italic;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.broadcast__archive {
+  position: relative;
+  padding-top: 30px;
+}
+
+.broadcast__archive::before {
+  content: "";
+  position: absolute;
+  /* left: -20px; */
+  top: 0;
+  width: calc(100% + 40px);
+  border-top: 1px solid #E6E8EC;
+}
+
+.broadcast__archive-img {
+  /* width: 100%;
+  height: 100%; */
+  margin-left: -10px;
+  margin-right: 89px;
+  /* padding-right: 13px; */
+}
+
+.broadcast__archive-text {
+  margin-bottom: 6px;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%;
+}
+
+.broadcast__archive-btn {
+  padding: 8px 30px;
+  border-radius: 77px;
+  border: 2px solid #121723;
+  background-color: transparent;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+/* hover, focus, active */
+
+.nav__link {
+  outline: 10px solid transparent;
+  outline-offset: 0;
+  transition: color .3s ease-in-out, background-color  .3s ease-in-out, outline .3s ease-in-out;
+}
+
+.nav__link:focus {
+  outline: 10px solid #AA9DFA;
+  color: #fff;
+  background-color: #AA9DFA;
+}
+
+.nav__link:hover {
+  outline: 0 solid transparent;
+  background-color: transparent;
+  color: #6D31EE;
+}
+
+.nav__link:active {
+  color: #4F28A5;
+}
+
+.header__search svg path {
+  transition: stroke .3s ease-in-out;
+}
+
+.header__search:focus svg path {
+  stroke: #AA9DFA;
+}
+
+.header__search:hover svg path {
+  stroke: #AA9DFA;
+}
+
+.header__search:active svg path {
+  stroke: #4F28A5;
+}
+
+.hero__btn {
+  outline-offset: 0;
+  outline: 2px solid transparent;
+  transition: background-color .3s ease-in-out, outline .3s ease-in-out, color .3s ease-in-out;
+}
+
+.hero__btn:focus {
+  color: #FFF;
+  outline: 2px solid #4F28A5;
+  background-color: #AA9DFA;
+}
+
+.hero__btn:hover {
+  color: #FFF;
+  outline: 2px solid #AA9DFA;
+  background-color: #AA9DFA;
+}
+
+.hero__btn:active {
+  color: #FFF;
+  background-color: #4F28A5;
+}
