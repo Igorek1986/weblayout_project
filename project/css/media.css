@@ -208,6 +208,51 @@
     padding: 12px 19.5px;
   }
 
+  .playlist {
+    padding-bottom: 83px;
+  }
+
+  .playlist__h2 {
+    margin-bottom: 6px;
+    font-size: 48px;
+    padding-top: 38px;
+  }
+
+  .playlist__description {
+    margin-bottom: 0;
+    font-size: 16px;
+    line-height: 22px;
+  }
+
+  .playlist__copyright {
+    font-size: 16px;
+  }
+
+  .playlist__card-img {
+    min-width: 113px;
+  }
+
+  .playlist__country {
+    left: 0;
+  }
+
+  .playlist__card {
+    margin-bottom: 29px;
+  }
+
+  .playlist__card-title {
+    padding: 0;
+    font-size: 16px;
+  }
+
+  .playlist__card-text {
+    padding: 0;
+    font-size: 12px;
+  }
+
+  .playlist__card-body {
+    padding: 38px 8px;
+  }
 }
 
 @media (min-width: 992px) {
@@ -246,6 +291,15 @@
     padding-left: 30px;
     padding-right: 0;
   }
+
+  .playlist {
+    padding-bottom: 64px;
+  }
+
+  .playlist__card-body {
+    padding-left: 3px;
+    padding-right: 0;
+  }
 }
 
 @media (min-width: 1024px) {
@@ -280,6 +334,10 @@
 
   .guest {
     margin-top: 65px;
+  }
+
+  .playlist__card-body {
+    padding-left: 8px;
   }
 }
 
@@ -365,5 +423,28 @@
   .guest__card-btn {
     position: absolute;
     bottom: -2px;
+  }
+
+  .playlist {
+    padding-bottom: 61px;
+  }
+
+  .playlist__card {
+    margin-bottom: 31px;
+  }
+
+  .playlist__card-top-offset {
+    margin-top: 56px;
+  }
+
+  .playlist__country {
+    left: auto;
+    right: 0;
+  }
+
+  .playlist__card-body {
+    padding-top: 10px;
+    padding-bottom: 16px;
+    padding-left: 17px;
   }
 }
