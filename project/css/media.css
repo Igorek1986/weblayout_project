@@ -2,6 +2,10 @@
   .broadcast__archive::before {
     width: calc(100% + 80px);
   }
+
+  .guest__card-body {
+    padding-right: 45px;
+  }
 }
 
 @media (min-width: 768px) {
@@ -162,6 +166,48 @@
     font-size: 16px;
   }
 
+  .guest {
+    margin-top: 31px;
+    padding-bottom: 45px;
+  }
+
+  .guest__h2 {
+    padding-top: 94px;
+    font-size: 48px;
+  }
+
+  .guest__text {
+    margin-bottom: 7px;
+    font-size: 20px;
+  }
+
+  .guest__description {
+    margin-bottom: 50px;
+    font-size: 20px;
+  }
+
+  .guest__card {
+    margin-bottom: 32px;
+  }
+
+  .guest__card-body {
+    padding-top: 30px;
+  }
+
+  .guest__card-title {
+    margin-bottom: 9px;
+    padding-left: 0;
+  }
+
+  .guest__card-text {
+    margin-bottom: 4px;
+    padding-left: 0;
+  }
+
+  .guest__card-btn {
+    padding: 12px 19.5px;
+  }
+
 }
 
 @media (min-width: 992px) {
@@ -193,6 +239,12 @@
 
   .broadcast__archive-btn {
     margin-bottom: 12px;
+  }
+
+  .guest__card-body {
+    padding-top: 0;
+    padding-left: 30px;
+    padding-right: 0;
   }
 }
 
@@ -226,39 +278,9 @@
     background-repeat: no-repeat;
   }
 
-  /* .broadcast__row {
-    position: relative;
-  } */
-
-  /* .broadcast__archive {
-    position: absolute;
-    bottom: 0;
-  } */
-
-  /* .broacast__up-offset {
-    margin-top: 56px;
+  .guest {
+    margin-top: 65px;
   }
-
-  .broacast__bottom-offset {
-    margin-bottom: 0;
-  }
-
-  .broadcast__archive {
-    left: 12px;
-    bottom: 32px;
-  }
-
-  .broadcast__archive::before {
-    border: none;
-  }
-
-  .broadcast__archive-img {
-    margin-bottom: 24px;
-  }
-
-  .broadcast__archive-btn {
-    margin-bottom: 12px;
-  } */
 }
 
 @media (min-width: 1920px) {
@@ -322,6 +344,26 @@
     background: url("../img/microphone_xl.png");
     background-repeat: no-repeat;
   }
+
+  .guest {
+    margin-top: 64px;
+    padding-bottom: 43px;
+  }
+
+  .guest__h2 {
+    margin-bottom: 12px;
+  }
+
+  .guest__description {
+    margin-bottom: 48px;
+  }
+
+  .guest__card {
+    margin-bottom: 51px;
+  }
+
+  .guest__card-btn {
+    position: absolute;
+    bottom: -2px;
+  }
 }
-
-
