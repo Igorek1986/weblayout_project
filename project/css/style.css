@@ -418,7 +418,6 @@ body {
   margin-bottom: 30px;
 }
 
-
 .playlist__card-padding-right {
   padding-right: 14px;
 }
@@ -453,6 +452,63 @@ body {
   font-style: normal;
   font-weight: 400;
   line-height: normal;
+}
+
+/* Advantage */
+
+.advantage {
+  padding-bottom: 52px;
+  background-color: #292E39;
+}
+
+.advantage__img {
+  margin-top: 54px;
+}
+
+.advantage__h2 {
+  margin-top: 30px;
+  color: #F0D288;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 100%;
+}
+
+.advantage__wave {
+  height: 24px;
+  width: 100%;
+  margin-top: 2px;
+  margin-bottom: 0;
+}
+
+.advantage__description {
+  margin-top: 8px;
+  margin-bottom: 8px;
+  color: #FFF;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 160%;
+}
+
+.advantage__price {
+  color: #FFF;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.advantage__btn {
+  padding: 15px 16px;
+  border-radius: 100px;
+  border: 2px solid #F0D288;
+  background-color: transparent;
+  color: #F0D288;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 100%;
 }
 
 /* hover, focus, active */
