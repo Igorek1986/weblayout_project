@@ -6,6 +6,17 @@
   .guest__card-body {
     padding-right: 45px;
   }
+
+  .footer-section-2::before {
+    background-color: transparent;
+  }
+
+  .footer__nav {
+    height: 108px;
+    margin-top: 27px;
+    gap: 29px 156px;
+  }
+
 }
 
 @media (min-width: 768px) {
@@ -286,6 +297,11 @@
     font-size: 20px;
   }
 
+
+  .about {
+    padding-bottom: 90px;
+  }
+
   .about__h2 {
     margin-top: 43px;
     margin-bottom: 12px;
@@ -359,6 +375,23 @@
   .custom-checkbox-text {
     font-size: 12px;
   }
+
+  .footer {
+    padding-top: 94px;
+  }
+
+  .nav-link {
+    font-size: 16px;
+  }
+
+  .footer__nav-padding {
+    padding-bottom: 68px;
+  }
+
+  .footer__w-wawe {
+    margin-top: 1px;
+    font-size: 16px;
+  }
 }
 
 @media (min-width: 992px) {
@@ -419,8 +452,34 @@
     margin-top: 24px;
   }
 
+  .about {
+    padding-bottom: 90px;
+  }
+
   .about__mt {
     margin-top: 4px;
+  }
+
+  .footer__logo {
+    margin-bottom: 14px;
+  }
+
+  .footer__social {
+    width: 138px;
+  }
+
+  .footer__nav {
+    margin-top: 0;
+    padding-left: 25px;
+    gap: 20px 109px;
+  }
+
+  .footer__nav-padding {
+    padding-bottom: 60px;
+  }
+
+  .footer__w-wawe {
+    margin-top: 6px;
   }
 }
 
@@ -485,8 +544,24 @@
     padding-right: 0;
   }
 
+  .about {
+    padding-bottom: 89px;
+  }
+
   .about__card-body {
     padding-top: 27px;
+  }
+
+  .footer__nav {
+    padding-left: 3px;
+  }
+
+  .footer__nav-padding {
+    padding-bottom: 62px;
+  }
+
+  .footer__w-wawe {
+    margin-top: 4px;
   }
 }
 
