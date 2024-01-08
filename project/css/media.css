@@ -1,6 +1,6 @@
 @media (min-width: 576px) {
   .broadcast__archive::before {
-    width: calc(100% + 80px);
+    width: 100vw;
   }
 
   .guest__card-body {
@@ -154,10 +154,6 @@
     margin-bottom: 31px;
   }
 
-  .broadcast__archive::before {
-    width: calc(100% + 204px);
-  }
-
   .broadcast__archive-img {
     margin-left: 0;
     margin-right: 0;
@@ -293,7 +289,7 @@
   }
 
   .advantage__btn {
-    padding: 25px 13.5px;
+    padding: 23px 13.5px;
     font-size: 20px;
   }
 
