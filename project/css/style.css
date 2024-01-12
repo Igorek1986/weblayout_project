@@ -70,12 +70,6 @@ body {
   --crimson: #D52B1E;
 }
 
-.flex {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-}
-
 .container {
   padding-left: 32px;
   padding-right: 32px;
@@ -86,18 +80,6 @@ body {
   padding: 0;
   list-style: none;
 }
-
-.gap {
-  gap: 30px 0;
-}
-
-/* .full-height {
-  background: var(--gray);
-} */
-
-/* .col-sm-10 {
-  background: var(--magenta);
-} */
 
 .card-padding-right {
   padding-right: 14px;
@@ -119,9 +101,7 @@ body {
   line-height: normal;
 }
 
-
 /* header */
-
 .header__border {
   position: absolute;
   width: 100vw;
@@ -167,7 +147,6 @@ body {
 }
 
 /* Hero */
-
 .hero__content {
   margin-bottom: 40px;
 }
@@ -193,7 +172,6 @@ body {
 }
 
 /* Podcasts */
-
 .podcasts {
   background-color: var(--little-dipper);
 }
@@ -263,7 +241,6 @@ body {
 }
 
 /* Broadcast */
-
 .broadcast__content {
   padding-top: 52px;
 }
@@ -345,7 +322,6 @@ body {
 }
 
 /* Guest */
-
 .guest {
   margin-top: 54px;
   padding-bottom: 24px;
@@ -419,7 +395,6 @@ body {
 }
 
 /* Playlist */
-
 .playlist {
   padding-bottom: 24px;
 }
@@ -479,7 +454,6 @@ body {
 }
 
 /* Advantage */
-
 .advantage {
   padding-bottom: 52px;
   background-color: var(--dark-slate-blue);
@@ -544,7 +518,6 @@ body {
 }
 
 /* About */
-
 .about {
   padding-top: 52px;
   padding-bottom: 48px;
@@ -624,6 +597,10 @@ body {
   padding-bottom: 0;
 }
 
+.form__gap {
+  gap: 30px 0;
+}
+
 .form__textarea,
 .form__name,
 .form__email {
@@ -644,19 +621,27 @@ body {
   border-radius: 20px;
 }
 
-.form__textarea::-webkit-input-placeholder, .form__name::-webkit-input-placeholder, .form__email::-webkit-input-placeholder {
+.form__textarea::-webkit-input-placeholder,
+ .form__name::-webkit-input-placeholder,
+  .form__email::-webkit-input-placeholder {
   color: var(--cadet-gray);
 }
 
-.form__textarea::-moz-placeholder, .form__name::-moz-placeholder, .form__email::-moz-placeholder {
+.form__textarea::-moz-placeholder,
+ .form__name::-moz-placeholder,
+  .form__email::-moz-placeholder {
   color: var(--cadet-gray);
 }
 
-.form__textarea:-ms-input-placeholder, .form__name:-ms-input-placeholder, .form__email:-ms-input-placeholder {
+.form__textarea:-ms-input-placeholder,
+ .form__name:-ms-input-placeholder,
+  .form__email:-ms-input-placeholder {
   color: var(--cadet-gray);
 }
 
-.form__textarea::-ms-input-placeholder, .form__name::-ms-input-placeholder, .form__email::-ms-input-placeholder {
+.form__textarea::-ms-input-placeholder,
+ .form__name::-ms-input-placeholder,
+  .form__email::-ms-input-placeholder {
   color: var(--cadet-gray);
 }
 
@@ -730,7 +715,6 @@ body {
 }
 
 /* Footer */
-
 .footer {
   padding-top: 51px;
   background-color: var(--dark-slate-blue);
@@ -820,7 +804,6 @@ body {
 }
 
 /* hover, focus, active */
-
 .nav__link,
 .footer__nav-link {
   outline: 10px solid transparent;
@@ -925,6 +908,8 @@ body {
 }
 
 .broadcast__card-link {
+  -webkit-transition: outline .3s ease-in-out, color .3s ease-in-out, background-color .3s ease-in-out;
+  -o-transition: outline .3s ease-in-out, color .3s ease-in-out, background-color .3s ease-in-out;
   transition: outline .3s ease-in-out, color .3s ease-in-out, background-color .3s ease-in-out;
 }
 
@@ -949,6 +934,8 @@ body {
 }
 
 .footer__social-fill path {
+  -webkit-transition: fill .3s ease-in-out;
+  -o-transition: fill .3s ease-in-out;
   transition: fill .3s ease-in-out;
 }
 
@@ -969,6 +956,8 @@ body {
 }
 
 .guest__card-btn {
+  -webkit-transition: border .3s ease-in-out, background-color .3s ease-in-out, color .3s ease-in-out;
+  -o-transition: border .3s ease-in-out, background-color .3s ease-in-out, color .3s ease-in-out;
   transition: border .3s ease-in-out, background-color .3s ease-in-out, color .3s ease-in-out;
 }
 
@@ -991,12 +980,15 @@ body {
 }
 
 .form-control {
+  -webkit-transition: background-color .3s ease-in-out;
+  -o-transition: background-color .3s ease-in-out;
   transition: background-color .3s ease-in-out;
 }
 
 .form-control:focus {
   outline: none;
-  box-shadow: none;
+  -webkit-box-shadow: none;
+          box-shadow: none;
   border: 1px solid var(--white);
   background-color: var(--dark-slate-blue);
   color: var(--white);
@@ -1011,10 +1003,14 @@ body {
 }
 
 .advantage__btn {
+  -webkit-transition: background-color .3s ease-in-out, color .3s ease-in-out, border .3s ease-in-out;
+  -o-transition: background-color .3s ease-in-out, color .3s ease-in-out, border .3s ease-in-out;
   transition: background-color .3s ease-in-out, color .3s ease-in-out, border .3s ease-in-out;
 }
 
 .advantage__btn svg path {
+  -webkit-transition: fill .3s ease-in-out;
+  -o-transition: fill .3s ease-in-out;
   transition: fill .3s ease-in-out;
 }
 
@@ -1045,8 +1041,7 @@ body {
   fill: var(--bronze);
 }
 
-/*  */
-
+/* input checked */
 .input-wrapper {
   position: relative;
 }
@@ -1054,7 +1049,6 @@ body {
 input:invalid {
   border-color: red;
 }
-
 
 input:invalid + .error-message::before {
   content: "Ошибка";

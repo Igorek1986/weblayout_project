@@ -16,7 +16,6 @@
     margin-top: 27px;
     gap: 29px 156px;
   }
-
 }
 
 @media (min-width: 768px) {
@@ -289,7 +288,6 @@
     font-size: 20px;
   }
 
-
   .about {
     padding-top: 56px;
     padding-bottom: 90px;
@@ -510,7 +508,6 @@
 }
 
 @media (min-width: 1024px) {
-
   .container {
     padding-left: 68px;
     padding-right: 68px;
@@ -541,7 +538,6 @@
 }
 
 @media (min-width: 1200px) {
-
   .header__nav {
     margin-top: 9px;
     padding-left: 4px;
@@ -596,7 +592,6 @@
 }
 
 @media (min-width: 1920px) {
-
   .container {
     padding-left: 104px;
     padding-right: 104px;
