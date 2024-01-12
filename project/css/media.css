@@ -139,7 +139,7 @@
     align-items: center;
     font-size: 16px;
     bottom: 20px;
-    color: #121723;
+    color: var(--very-dark-shade-of-blue);
   }
 
   .broadcast__arrow path {
