@@ -25,8 +25,9 @@
     padding-right: 90px;
   }
 
-  .header {
-    padding: 0 114px;
+  .header__border {
+    height: 60px;
+    top: 80px;
   }
 
   .header__top {
@@ -38,25 +39,12 @@
     width: 113px;
   }
 
-  .header__bottom {
-    padding-top: 21px;
-    padding-bottom: 21px;
-  }
-
-  .header__search {
-    top: 29px;
-    right: 109px;
-  }
-
   .header__nav {
-    margin-left: -114px;
-    margin-right: -114px;
-    padding-right: 114px;
-    padding-left: 114px;
+    padding: 22px 0;
   }
 
   .nav__list {
-    gap: 53px;
+    gap: 56px;
   }
 
   .hero__h1 {
@@ -66,12 +54,12 @@
 
   .hero__description {
     margin-top: 17px;
-    margin-bottom: 18px;
+    margin-bottom: 19px;
     font-size: 16px;
   }
 
   .hero__btn {
-    padding: 25px 54px;
+    padding: 26px 54px;
     font-size: 20px;
   }
 
@@ -117,6 +105,8 @@
   }
 
   .broadcast__archive-content {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
   }
 
@@ -146,8 +136,14 @@
 
   .broadcast__card-link {
     padding-left: 5px;
+    align-items: center;
     font-size: 16px;
     bottom: 20px;
+    color: #121723;
+  }
+
+  .broadcast__arrow path {
+    fill: currentColor;
   }
 
   .broadcast__bottom-offset {
@@ -216,7 +212,7 @@
   }
 
   .playlist {
-    padding-bottom: 83px;
+    padding-bottom: 82px;
   }
 
   .playlist__h2 {
@@ -295,11 +291,12 @@
 
 
   .about {
+    padding-top: 56px;
     padding-bottom: 90px;
   }
 
   .about__h2 {
-    margin-top: 43px;
+    margin-top: 42px;
     margin-bottom: 12px;
     font-size: 48px;
   }
@@ -311,7 +308,7 @@
   }
 
   .about__description {
-    margin-bottom: 27px;
+    margin-bottom: 28px;
     font-size: 20px;
   }
 
@@ -365,7 +362,7 @@
   }
 
   .checkbox {
-    margin-top: 22px;
+    margin-top: 27px;
   }
 
   .custom-checkbox-text {
@@ -373,10 +370,14 @@
   }
 
   .footer {
-    padding-top: 94px;
+    padding-top: 90px;
   }
 
-  .nav-link {
+  .footer__social {
+    margin-bottom: 52px;
+  }
+
+  .footer__nav-link {
     font-size: 16px;
   }
 
@@ -384,13 +385,26 @@
     padding-bottom: 68px;
   }
 
+  .footer__wave {
+    width: calc(100% + 14px);
+    margin-left: -14px;
+  }
+
   .footer__w-wawe {
-    margin-top: 1px;
+    margin-top: 2px;
     font-size: 16px;
   }
 }
 
 @media (min-width: 992px) {
+  .nav__list {
+    gap: 0;
+  }
+
+  .nav__item {
+    width: 95px;
+  }
+
   .broadcast__row {
     position: relative;
   }
@@ -428,7 +442,7 @@
   }
 
   .playlist {
-    padding-bottom: 64px;
+    padding-bottom: 62px;
   }
 
   .playlist__card-body {
@@ -456,12 +470,22 @@
     margin-top: 4px;
   }
 
+  .footer {
+    padding-top: 92px;
+  }
+
   .footer__logo {
-    margin-bottom: 14px;
+    margin-bottom: 17px;
   }
 
   .footer__social {
     width: 138px;
+    height: 24px;
+  }
+
+  .footer__social-size-svg {
+    width: 24px;
+    height: 24px;
   }
 
   .footer__nav {
@@ -474,8 +498,14 @@
     padding-bottom: 60px;
   }
 
+  .footer__wave {
+    width: calc(100% + 20px);
+    margin-top: 14px;
+    margin-left: -20px;
+  }
+
   .footer__w-wawe {
-    margin-top: 6px;
+    margin-top: 3px;
   }
 }
 
@@ -486,20 +516,12 @@
     padding-right: 68px;
   }
 
-  .header {
-    padding: 0 100px;
+  .header__border {
+    height: 64px;
   }
 
   .nav__list {
     font-size: 20px;
-  }
-
-  .header__search {
-    right: 94px;
-  }
-
-  .nav__list {
-    gap: 105px;
   }
 
   .hero__background {
@@ -519,6 +541,12 @@
 }
 
 @media (min-width: 1200px) {
+
+  .header__nav {
+    margin-top: 9px;
+    padding-left: 4px;
+    padding-right: 90px;
+  }
 
   .advantage {
     padding-bottom: 132px;
@@ -556,6 +584,12 @@
     padding-bottom: 62px;
   }
 
+  .footer__wave {
+    width: 100%;
+    margin-left: 0;
+    margin-top: 10px;
+  }
+
   .footer__w-wawe {
     margin-top: 4px;
   }
@@ -568,13 +602,8 @@
     padding-right: 104px;
   }
 
-  .header {
-    display: flex;
-    padding: 0 405px;
-  }
-
-  .header__main {
-    display: flex;
+  .header__border {
+    border: none;
   }
 
   .header__logo {
@@ -582,21 +611,8 @@
     padding-top: 6px;
   }
 
-  .header__search {
-    right: 400px;
-  }
-
   .header__nav {
     border: none;
-  }
-
-  .header__bottom {
-    margin-left: -35px;
-    padding-top: 34px;
-  }
-
-  .nav__list {
-    gap: 59px;
   }
 
   .hero__content {
@@ -646,7 +662,7 @@
   }
 
   .playlist {
-    padding-bottom: 61px;
+    padding-bottom: 62px;
   }
 
   .playlist__card {
