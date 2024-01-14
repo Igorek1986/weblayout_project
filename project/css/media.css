@@ -1,0 +1,681 @@
+@media (min-width: 576px) {
+  .broadcast__archive::before {
+    width: 100vw;
+  }
+
+  .guest__card-body {
+    padding-right: 45px;
+  }
+
+  .footer-section-2::before {
+    background-color: transparent;
+  }
+
+  .footer__nav {
+    height: 108px;
+    margin-top: 27px;
+    gap: 29px 156px;
+  }
+}
+
+@media (min-width: 768px) {
+  .container {
+    padding-left: 90px;
+    padding-right: 90px;
+  }
+
+  .header__border {
+    height: 60px;
+    top: 80px;
+  }
+
+  .header__top {
+    padding-top: 29px;
+    padding-bottom: 26px;
+  }
+
+  .header__logo {
+    width: 113px;
+  }
+
+  .header__nav {
+    padding: 22px 0;
+  }
+
+  .nav__list {
+    gap: 56px;
+  }
+
+  .hero__h1 {
+    padding-top: 90px;
+    font-size: 60px;
+  }
+
+  .hero__description {
+    margin-top: 17px;
+    margin-bottom: 19px;
+    font-size: 16px;
+  }
+
+  .hero__btn {
+    padding: 26px 54px;
+    font-size: 20px;
+  }
+
+  .hero__content {
+    margin-bottom: 90px;
+  }
+
+  .podcasts__content {
+    padding-bottom: 64px;
+  }
+
+  .podcasts__h2 {
+    margin-bottom: 30px;
+    padding-top: 40px;
+    font-size: 48px;
+  }
+
+  .card-time {
+    padding-top: 24px;
+    padding-left: 14px;
+  }
+
+  .card-title {
+    margin-bottom: 4px;
+    padding-left: 14px;
+    font-size: 20px;
+  }
+
+  .card-text {
+    padding-bottom: 24px;
+    padding-left: 14px;
+    font-size: 16px;
+  }
+
+  .card-data-ivent {
+    top: 124px;
+  }
+
+  .broadcast__h2 {
+    margin-bottom: 119px;
+    padding-top: 37px;
+    font-size: 48px;
+  }
+
+  .broadcast__archive-content {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+
+  .broadcast__archive-btn {
+    max-width: 160px;
+  }
+
+  .broadcast__archive-text {
+    max-width: 255px;
+  }
+
+  .broadcast__card-body {
+    padding-bottom: 20px;
+  }
+
+  .broadcast__card-title {
+    margin-top: 11px;
+    margin-bottom: 2px;
+    padding-left: 6px;
+  }
+
+  .broadcast__card-text {
+    margin-bottom: 12px;
+    padding-left: 6px;
+    font-size: 12px;
+  }
+
+  .broadcast__card-link {
+    padding-left: 5px;
+    align-items: center;
+    font-size: 16px;
+    bottom: 20px;
+    color: var(--very-dark-shade-of-blue);
+  }
+
+  .broadcast__arrow path {
+    fill: currentColor;
+  }
+
+  .broadcast__bottom-offset {
+    margin-bottom: 31px;
+  }
+
+  .broadcast__archive-img {
+    margin-left: 0;
+    margin-right: 0;
+    padding-right: 20px;
+  }
+
+  .broadcast__archive-btn {
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+
+  .broadcast__archive-text {
+    margin-bottom: -2px;
+  }
+
+  .broadcast__archive-text {
+    font-size: 16px;
+  }
+
+  .guest {
+    margin-top: 31px;
+    padding-bottom: 45px;
+  }
+
+  .guest__h2 {
+    padding-top: 94px;
+    font-size: 48px;
+  }
+
+  .guest__text {
+    margin-bottom: 7px;
+    font-size: 20px;
+  }
+
+  .guest__description {
+    margin-bottom: 50px;
+    font-size: 20px;
+  }
+
+  .guest__card {
+    margin-bottom: 32px;
+  }
+
+  .guest__card-body {
+    padding-top: 30px;
+  }
+
+  .guest__card-title {
+    margin-bottom: 9px;
+    padding-left: 0;
+  }
+
+  .guest__card-text {
+    margin-bottom: 4px;
+    padding-left: 0;
+  }
+
+  .guest__card-btn {
+    padding: 12px 19.5px;
+  }
+
+  .playlist {
+    padding-bottom: 82px;
+  }
+
+  .playlist__h2 {
+    margin-bottom: 6px;
+    font-size: 48px;
+    padding-top: 38px;
+  }
+
+  .playlist__description {
+    margin-bottom: 0;
+    font-size: 16px;
+    line-height: 22px;
+  }
+
+  .playlist__copyright {
+    font-size: 16px;
+  }
+
+  .playlist__card-img {
+    min-width: 113px;
+  }
+
+  .playlist__country {
+    left: 0;
+  }
+
+  .playlist__card {
+    margin-bottom: 29px;
+  }
+
+  .playlist__card-title {
+    padding: 0;
+    font-size: 16px;
+  }
+
+  .playlist__card-text {
+    padding: 0;
+    font-size: 12px;
+  }
+
+  .playlist__card-body {
+    padding: 38px 8px;
+  }
+
+  .advantage {
+    padding-bottom: 92px;
+  }
+
+  .advantage__h2 {
+    margin-top: 49px;
+    font-size: 48px;
+  }
+
+  .advantage__wave {
+    margin-top: 10px;
+    margin-bottom: 0;
+  }
+
+  .advantage__description {
+    margin-top: 7px;
+    margin-bottom: 13px;
+    font-size: 16px;
+    line-height: 180%;
+  }
+
+  .advantage__price {
+    margin-top: 26px;
+    margin-bottom: 27px;
+    font-size: 30px;
+  }
+
+  .advantage__btn {
+    padding: 23px 13.5px;
+    font-size: 20px;
+  }
+
+  .about {
+    padding-top: 56px;
+    padding-bottom: 90px;
+  }
+
+  .about__h2 {
+    margin-top: 42px;
+    margin-bottom: 12px;
+    font-size: 48px;
+  }
+
+  .about__h3 {
+    margin-bottom: 7px;
+    padding-right: 0;
+    font-size: 20px;
+  }
+
+  .about__description {
+    margin-bottom: 28px;
+    font-size: 20px;
+  }
+
+  .about__spiral-1 {
+    margin-right: 24px;
+  }
+
+  .about__mt {
+    margin-top: 133px;
+  }
+
+  .about__card-body {
+    padding-top: 30px;
+  }
+
+  .about__card-title,
+  .about__card-text {
+    padding-left: 0;
+  }
+
+  .about__card-title {
+    margin-bottom: 9px;
+  }
+
+  .about__card-text {
+    padding-bottom: 0;
+    font-size: 16px;
+    line-height: 24px;
+  }
+
+  .form__textarea,
+  .form__name,
+  .form__email {
+    font-size: 20px;
+  }
+
+  .form__textarea {
+    padding: 30px 10px 10px 32px;
+    border-radius: 30px;
+  }
+
+  .form__name,
+  .form__email {
+    height: 70px;
+    padding: 10px 10px 10px 32px;
+  }
+
+  .form__btn {
+    padding: 25px 54px;
+    font-size: 20px;
+  }
+
+  .checkbox {
+    margin-top: 27px;
+  }
+
+  .custom-checkbox-text {
+    font-size: 12px;
+  }
+
+  .footer {
+    padding-top: 90px;
+  }
+
+  .footer__social {
+    margin-bottom: 52px;
+  }
+
+  .footer__nav-link {
+    font-size: 16px;
+  }
+
+  .footer__nav-padding {
+    padding-bottom: 68px;
+  }
+
+  .footer__wave {
+    width: calc(100% + 14px);
+    margin-left: -14px;
+  }
+
+  .footer__w-wawe {
+    margin-top: 2px;
+    font-size: 16px;
+  }
+}
+
+@media (min-width: 992px) {
+  .nav__list {
+    gap: 0;
+  }
+
+  .nav__item {
+    width: 95px;
+  }
+
+  .broadcast__row {
+    position: relative;
+  }
+
+  .broadcast__up-offset {
+    margin-top: 56px;
+  }
+
+  .broadcast__bottom-offset {
+    margin-bottom: 0;
+  }
+
+  .broadcast__archive {
+    position: absolute;
+    left: 12px;
+    bottom: 32px;
+  }
+
+  .broadcast__archive::before {
+    border: none;
+  }
+
+  .broadcast__archive-img {
+    margin-bottom: 24px;
+  }
+
+  .broadcast__archive-btn {
+    margin-bottom: 12px;
+  }
+
+  .guest__card-body {
+    padding-top: 0;
+    padding-left: 30px;
+    padding-right: 0;
+  }
+
+  .playlist {
+    padding-bottom: 62px;
+  }
+
+  .playlist__card-body {
+    padding-left: 3px;
+    padding-right: 0;
+  }
+
+  .advantage {
+    padding-top: 46px;
+  }
+
+  .advantage__description {
+    padding-right: 20px;
+  }
+
+  .advantage__price {
+    margin-top: 24px;
+  }
+
+  .about {
+    padding-bottom: 90px;
+  }
+
+  .about__mt {
+    margin-top: 4px;
+  }
+
+  .footer {
+    padding-top: 92px;
+  }
+
+  .footer__logo {
+    margin-bottom: 17px;
+  }
+
+  .footer__social {
+    width: 138px;
+    height: 24px;
+  }
+
+  .footer__social-size-svg {
+    width: 24px;
+    height: 24px;
+  }
+
+  .footer__nav {
+    margin-top: 0;
+    padding-left: 25px;
+    gap: 20px 109px;
+  }
+
+  .footer__nav-padding {
+    padding-bottom: 60px;
+  }
+
+  .footer__wave {
+    width: calc(100% + 20px);
+    margin-top: 14px;
+    margin-left: -20px;
+  }
+
+  .footer__w-wawe {
+    margin-top: 3px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .container {
+    padding-left: 68px;
+    padding-right: 68px;
+  }
+
+  .header__border {
+    height: 64px;
+  }
+
+  .nav__list {
+    font-size: 20px;
+  }
+
+  .hero__background {
+    width: 260px;
+    height: 272px;
+    background: url("../img/microphone.png");
+    background-repeat: no-repeat;
+  }
+
+  .guest {
+    margin-top: 65px;
+  }
+
+  .playlist__card-body {
+    padding-left: 8px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .header__nav {
+    margin-top: 9px;
+    padding-left: 4px;
+    padding-right: 90px;
+  }
+
+  .advantage {
+    padding-bottom: 132px;
+  }
+
+  .advantage__img {
+    position: relative;
+  }
+
+  .advantage__new {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background-image: url(../img/new.png);
+    background-repeat: no-repeat;
+  }
+
+  .advantage__description {
+    padding-right: 0;
+  }
+
+  .about {
+    padding-bottom: 89px;
+  }
+
+  .about__card-body {
+    padding-top: 27px;
+  }
+
+  .footer__nav {
+    padding-left: 3px;
+  }
+
+  .footer__nav-padding {
+    padding-bottom: 62px;
+  }
+
+  .footer__wave {
+    width: 100%;
+    margin-left: 0;
+    margin-top: 10px;
+  }
+
+  .footer__w-wawe {
+    margin-top: 4px;
+  }
+}
+
+@media (min-width: 1920px) {
+  .container {
+    padding-left: 104px;
+    padding-right: 104px;
+  }
+
+  .header__border {
+    border: none;
+  }
+
+  .header__logo {
+    width: 160px;
+    padding-top: 6px;
+  }
+
+  .header__nav {
+    border: none;
+  }
+
+  .hero__content {
+    margin-bottom: 40px;
+  }
+
+  .hero__h1 {
+    padding-top: 102px;
+  }
+
+  .hero__description {
+    margin-bottom: 42px;
+    padding-right: 5px;
+  }
+
+  .hero__btn {
+    margin-bottom: 54px;
+  }
+
+  .hero__background {
+    width: 360px;
+    height: 382px;
+    background: url("../img/microphone_xl.png");
+    background-repeat: no-repeat;
+  }
+
+  .guest {
+    margin-top: 64px;
+    padding-bottom: 43px;
+  }
+
+  .guest__h2 {
+    margin-bottom: 12px;
+  }
+
+  .guest__description {
+    margin-bottom: 48px;
+  }
+
+  .guest__card {
+    margin-bottom: 51px;
+  }
+
+  .guest__card-btn {
+    position: absolute;
+    bottom: -2px;
+  }
+
+  .playlist {
+    padding-bottom: 62px;
+  }
+
+  .playlist__card {
+    margin-bottom: 31px;
+  }
+
+  .playlist__card-top-offset {
+    margin-top: 56px;
+  }
+
+  .playlist__country {
+    left: auto;
+    right: 0;
+  }
+
+  .playlist__card-body {
+    padding-top: 10px;
+    padding-bottom: 16px;
+    padding-left: 17px;
+  }
+}
