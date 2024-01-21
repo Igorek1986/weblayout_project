@@ -245,6 +245,13 @@ body {
   background-color: var(--white);
 }
 
+.podcasts__card-picture {
+  -webkit-box-flex: 0;
+  -ms-flex: 0 0 auto;
+  flex: 0 0 auto;
+  margin: auto;
+}
+
 .podcasts__card-img {
   width: 100%;
   vertical-align: middle;
@@ -543,6 +550,13 @@ body {
 
 .playlist__card-img {
   width: 100%;
+}
+
+.plalyst__card-picture {
+  -webkit-box-flex: 0;
+  -ms-flex: 0 0 auto;
+  flex: 0 0 auto;
+  margin: auto;
 }
 
 .playlist__card-body-title {
