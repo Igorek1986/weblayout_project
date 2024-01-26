@@ -1,6 +1,14 @@
 @media (min-width: 576px) {
-  .container {
-    max-width: 540px;
+  .header__menu {
+    width: calc(100% + 180px);
+  }
+
+  .header__nav {
+    overflow-y: visible;
+  }
+
+  .nav__list {
+    justify-content: space-between;
   }
 
   .podcasts__container {
@@ -79,14 +87,8 @@
 
 @media (min-width: 768px) {
   .container {
-    max-width: 720px;
-    padding-left: 90px;
-    padding-right: 90px;
-  }
-
-  .header__border {
-    height: 60px;
-    top: 80px;
+    padding-left: 114px;
+    padding-right: 114px;
   }
 
   .header__logo {
@@ -98,8 +100,17 @@
     width: 113px;
   }
 
+  .header__menu {
+    width: calc(100% + 228px);
+    margin-left: -114px;
+    margin-right: -114px;
+    padding-left: 114px;
+    padding-right: 114px;
+  }
+
   .header__nav {
     padding: 22px 0;
+    overflow-y: visible;
   }
 
   .nav__list {
@@ -405,9 +416,6 @@
     display: inline-block;
   }
 
-  .about__block-teacher {
-  }
-
   .about__card-body {
     padding-top: 26px;
   }
@@ -492,13 +500,16 @@
 
 @media (min-width: 992px) {
   .container {
-    max-width: 960px;
-    padding-left: 68px;
-    padding-right: 68px;
+    padding-left: 100px;
+    padding-right: 100px;
   }
 
-  .header__border {
-    height: 64px;
+  .header__menu {
+    width: calc(100% + 200px);
+    margin-left: -100px;
+    margin-right: -100px;
+    padding-left: 100px;
+    padding-right: 100px;
   }
 
   .hero__block {
@@ -837,11 +848,8 @@
 
 @media (min-width: 1200px) {
   .container {
-    max-width: 1140px;
-  }
-
-  .header__border {
-    border: none;
+    padding-left: 150px;
+    padding-right: 150px;
   }
 
   .header__block {
@@ -861,6 +869,9 @@
 
   .header__menu {
     --offsets: 8;
+    width: calc(100% / 12 var(--offsets));
+    padding: 0;
+    border: none;
     -webkit-box-ordinal-group: 3;
         -ms-flex-order: 2;
             order: 2;
@@ -868,7 +879,10 @@
 
   .header__nav {
     padding-left: 56px;
-    padding-right: 48px;
+  }
+
+  .nav__list {
+    gap: 56px;
   }
 
   .podcasts__h2 {
@@ -928,9 +942,8 @@
 
 @media (min-width: 1400px) {
   .container {
-    max-width: 1320px;
-    padding-left: 104px;
-    padding-right: 104px;
+    padding-left: 405px;
+    padding-right: 405px;
   }
 
   .header__logo-img {
@@ -939,7 +952,11 @@
   }
 
   .header__nav {
-    border: none;
+    padding-right: 50px;
+  }
+
+  .nav__list {
+    gap: 59px;
   }
 
   .hero__container {

@@ -107,15 +107,6 @@ body {
 }
 
 /* header */
-.header__border {
-  position: absolute;
-  width: 100vw;
-  height: 50px;
-  border: 1px solid var(--little-dipper);
-  top: 55px;
-  z-index: -1;
-}
-
 .header__block {
   padding-top: 6px;
   -ms-flex-wrap: wrap;
@@ -151,7 +142,12 @@ body {
 
 .header__menu {
   --offsets: 12;
-  width: calc(100% / 12 * var(--offsets));
+  width: calc(100% + 64px);
+  margin-left: -32px;
+  margin-right: -32px;
+  padding-left: 32px;
+  padding-inline-end: 32px;
+  border: 1px solid var(--little-dipper);
   -webkit-box-ordinal-group: 4;
       -ms-flex-order: 3;
           order: 3;
