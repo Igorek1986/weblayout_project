@@ -942,8 +942,9 @@
 
 @media (min-width: 1400px) {
   .container {
-    padding-left: 405px;
-    padding-right: 405px;
+    max-width: 1320px;
+    padding-left: 104px;
+    padding-right: 104px;
   }
 
   .header__logo-img {
